@@ -1,0 +1,33 @@
+.decoration-none
+        {
+            text-decoration: none;
+        }
+        .acoun
+        {
+            display: none;
+        }
+        .bod{
+            display: inline-flex;
+            /* justify-items: center; */
+            justify-content: space-between;
+        }
+        .fermer{
+            width: 5%;
+            /* padding: 30px;*/
+            cursor: pointer;
+            margin-left: 90%;
+            margin-top: 10px;
+        }
+        .acoun
+        {
+            width: 70%;
+        }
+        .center{
+            width: 100%;
+            min-height: 100px;
+            padding: 110px 0;
+            padding-top: 160px;
+            background: url(../images/1.jpg);
+        
+        }
+        
