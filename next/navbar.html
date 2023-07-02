@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+    
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+       .b-example-divider {
+          height: 3rem;
+          background-color: rgba(0, 0, 0, .1);
+          border: solid rgba(0, 0, 0, .15);
+          border-width: 1px 0;
+          box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+    
+        .b-example-vr {
+          flex-shrink: 0;
+          width: 1.5rem;
+          height: 100vh;
+        }
+    
+        .bi {
+          vertical-align: -.125em;
+          fill: currentColor;
+        }
+    
+        .nav-scroller {
+          position: relative;
+          z-index: 2;
+          height: 2.75rem;
+          overflow-y: hidden;
+        }
+    
+        .nav-scroller .nav {
+          display: flex;
+          flex-wrap: nowrap;
+          padding-bottom: 1rem;
+          margin-top: -1px;
+          overflow-x: auto;
+          text-align: center;
+          white-space: nowrap;
+          -webkit-overflow-scrolling: touch;
+        }
+      </style>
+    <title>Nav</title>
+</head>
+<body>
+        <nav class="navbar bg-primary fixed-top " aria-label="Dark offcanvas navbar">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="onclick-btn offcanvas offcanvas-end bg-secondary text-bg-dark " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">ADMIN HOUSE</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item"><span class="acc"></span><a href="#" class="nav-link active text-white">Account</a></li>
+                        <li class="nav-item dropdown"><span class="acc"></span><a href="#" class="nav-link text-white dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">About us</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quod iste consequatur, dolore, nobis impedit similique eveniet dignissimos et odio, quis molestias eum doloremque? Labore inventore nulla perferendis minima facere!
+                            </a></div>
+                        </li>
+                        <li class="nav-item"><span class="acc"></span><a href="#" class="nav-link text-white" >help</a></li>
+                        <li class="nav-item"><span class="acc"></span><a href="#" class="nav-link text-white">Logout</a></li>
+                    </ul>
+                  </div>
+                
+            </div>
+            <div class="descript">
+                <p class="texte">Save time by establishing a complete daily program</p>
+            </div>
+            <div class="point">
+                <div class="listpoints"></div>
+                <div class="listpoints"></div>
+                <div class="listpoints"></div>
+            </div>
+            <div class="logo"><img src="digitalLogo1.png" width="70" alt="" class="img-fluid"></div>
+        </nav>
+
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</html>

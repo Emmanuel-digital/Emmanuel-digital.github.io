@@ -1,0 +1,376 @@
+                                                                   Revision : 02
+--------------------------------------------------------------------------------
+Software name      Intel 8265 Wireless LAN Driver for Windows 10
+
+Support models     ThinkPad P52s                     (Machine types: 20LB, 20LC)
+                   ThinkPad T480                     (Machine types: 20L5, 20L6)
+                   ThinkPad T480s                    (Machine types: 20L7, 20L8)
+                   ThinkPad T580                     (Machine types: 20L9, 20LA)
+                   ThinkPad X280                     (Machine types: 20KE, 20KF)
+                   ThinkPad X1 Carbon Gen 6          (Machine types: 20KH, 20KG)
+                   ThinkPad X1 Tablet Gen 3          (Machine types: 20KJ, 20KK)
+                   ThinkPad X1 Yoga Gen 3(Machine types: 20LD, 20LE, 20LF, 20LG)
+
+Operating System   Microsoft Windows 10  64-bit (OS Version 1803 or before)
+
+
+                   Refer to marketing materials to find out what computer models
+                   support which Operating Systems.
+
+Version            20.70.18.2
+
+Support device     Intel Dual Band Wireless-AC 8265
+
+
+--------------------------------------------------------------------------------
+WHAT THIS PACKAGE DOES
+
+
+  This package installs the software (Intel Wireless LAN driver) to enable the
+  following devices.
+
+  Device name                         Device name in the Device Manager
+  --------------------------------    -----------------------------------
+  Intel Dual Band Wireless-AC 8265    Intel(R) Dual Band Wireless-AC 8265
+
+  Refer to marketing materials to find out what computer models support which
+  devices.
+
+  If this package has been installed, updating (overwrite-installing) this
+  package will fix problems, add new functions, or expand functions as noted
+  below.
+
+  This program is language independent and can be used with any language system.
+
+
+--------------------------------------------------------------------------------
+CHANGES IN THIS RELEASE
+  Versions  20.70.18.2 (Driver)
+
+[Important updates]
+ - Address security vulnerability issues CVE-2020-12313, CVE-2020 12314, CVE-2020-12318,
+   CVE-2020-12317, CVE-2020-12319, and CVE-2017-13080.
+
+[New functions or enhancements]
+ Nothing.
+
+[Problem fixes]
+ Nothing.
+
+
+--------------------------------------------------------------------------------
+DETERMINING WHICH VERSION IS INSTALLED
+
+
+Previous Proset 'Intel(R) Proset/Wireless WiFi Software' driver is installed.
+[Programs and Features]
+  1. Hold down the Windows key and press X to open a menu at the lower-left area
+     of the screen.
+  2. Select Programs and Features from the menu.
+  3. Select Intel(R) PROSet/Wireless Software.
+  4. Check the product version in the Details Pane shown at the bottom of screen.
+     If not shown, select Organize, select Layout, then select Details Pane.
+
+[Driver]
+  1. Right-click Windows logo on taskbar.
+  2. Select Device Manager.
+  3. Double-click Network adapters category.
+  4. Double-click Intel Dual Band Wireless-AC 8265.
+  5. Select Driver tab.
+  6. Check Driver version.
+
+[Proset]
+  1. Hold down the Windows logo key and press X to open a menu at the lower-left
+     area of the screen.
+  2. Select Device Manager from the menu.
+  3. Double-click Software Components category.
+  4. Double-click Intel PROSet/Wireless WiFi Software.
+  5. Select Driver tab.
+  6. Check Driver version.
+
+Previous Proset 'Intel(R) Proset/Wireless WiFi Software' driver is not installed.
+[Driver]
+  1. Right-click Windows logo on taskbar.
+  2. Select Device Manager.
+  3. Double-click Network adapters category.
+  4. Double-click Intel Dual Band Wireless-AC 8265.
+  5. Select Driver tab.
+  6. Check Driver version.
+
+
+--------------------------------------------------------------------------------
+NOTES
+
+
+  This driver is only for Windows 10 Fall Creators update or onward version.
+
+  Wireless-AMT driver support is included in AMT driver.
+
+
+--------------------------------------------------------------------------------
+DETERMINING WINDOWS 10 VERSION
+
+  1. Hold down the Windows logo key and press R to open the "Run" dialog box.
+  2. Type in "winver" and press Enter to open the "About Windows" dialog box.
+     Windows 10 Version information will be indicated in this dialog box.
+
+
+--------------------------------------------------------------------------------
+
+
+LIMITATIONS
+
+- Bluetooth and Wi-Fi radio are both operating on the same 2.4 GHz band. When
+  both of them are used simultaneously, you may see slower communication speed
+  and/or reduced communication range caused by radio interference. To avoid such
+  the situation, use the Wi-Fi radio with the 5 GHz band (802.11a, 802.11ac or
+  802.11an mode).
+
+- When this software is uninstalled, you can not detect this uninstalled version
+  again by ThinkVantage System Update and you need to manually install the
+  software.
+
+- Wi-Fi could not upgrade to the latest Wi-Fi version when OS is updated from
+  Windows 7 to Windows 10. System Update cannot search this package when the
+  Wi-Fi Driver Date: 2/22/2015 and Wi-Fi Driver version: 17.15.0.5 in Device
+  Manager. Need to perform either of the following solutions:
+  a) Download latest driver that can be found on Lenovo Support Site.
+     Uninstall Wi-Fi driver in Programs and Features and re-install the
+     downloaded Wi-Fi driver.
+  b) Uninstall Wi-Fi driver in Programs and Features.
+     Run and download new Wi-Fi via Thinkvantage System Update.
+
+- Proset device will not be removed in Device Manager after WLAN driver
+  uninstallation or after upgrade installation. Wi-Fi driver functionality will
+  not be affected even if the Proset device still available in Device Manager.
+
+- Wi-Fi "Intel PROSet/Wireless Software" entry can still be seen in Programs and
+  Features after upgrade installation from Wi-Fi Driver version 20.70.11.3 or
+  older versions, to Wi-Fi Driver version 20.70.14.1 or later versions. 
+  User can remove this "Intel PROSet/Wireless Software" entry in Programs and 
+  Features and the Wi-Fi driver will not be affected.
+
+
+--------------------------------------------------------------------------------
+INSTALLATION INSTRUCTIONS
+
+
+Notes:
+- If your computer runs satisfactorily now, it may not be necessary to update
+  the software. To determine if you should update the software, refer to the
+  Version Information section.
+- IMPORTANT: Uninstall previous Wi-Fi driver "Intel PROSet/Wireless Software"
+             in Programs and Features then follow the Manual Install section
+             for the Wi-Fi driver installation.
+             Make sure to restart the computer after installation.
+
+Manual Install
+
+  This section assumes to use Internet Explorer and Windows Explorer.
+
+  Downloading files
+  1. Select the underlined file name. Once this is done, some pop-up windows
+     will appear.
+  2. Follow the instructions on the screen.
+  3. In the window to choose Run or Save, select Save.
+  4. Once the download has completed, there may or may not be a message stating
+     that the download completed successfully.
+
+  Extracting files
+  5. Make sure to be logged on with an administrator account.
+  6. Locate the folder where the file was downloaded.
+  7. Locate the file that was downloaded and double-click it.
+  8. Follow the instructions on the screen.
+  9. In Extract or Install? window, select "Install", click Next, and move to
+     step 13 to continue installation.
+     Or, select "Extract only" and click Next to extract and keep the files
+     on the specified folder.
+ 10. In the Select Destination Location window, click Extract.
+     If you would like to select a different folder, click Browse.
+ 11. All the necessary files will be extracted to the folder selected in
+     the step 10.
+ 12. Click Finish.
+
+  Installing files
+ 13. In the Ready to Install window, click Install. All the necessary files will
+     be extracted to the temporary folder. And extracted files will be deleted
+     after installation.
+ 14. Click Finish.
+ 15. Follow the instructions on the screen to complete installation and restart
+     the computer.
+     IMPORTANT: Make sure to restart the computer after installation.
+
+
+Unattended Install
+
+  This is for system administrator's use only.
+
+  1. Refer to the Manual Install section, and download and extract the file.
+  2. At the command line, execute dpinst.exe with the [/q /sa /se /sw] options.
+     Example:
+     [Path where the files were extracted]\dpinst.exe [/q /sa /se /sw]
+
+
+--------------------------------------------------------------------------------
+UNINSTALLATION INSTRUCTIONS
+
+
+Notes:
+- If winlogon.exe error or any problem occurs after uninstalling the software,
+  re-install any version of the software for problem solving.
+
+Uninstallation sequence:
+  1. Uninstall driver 'Intel(R) Proset/Wireless Software' in Programs and
+     Features and reboot the system.
+  2. Uninstall Proset driver under 'Software components' category in Device
+     Manager and reboot the system.
+      >> Intel(R) PROSet/Wireless WiFi Software
+  3. Uninstall WiFi driver under 'Network adapters' catergory in Device Manager
+     and reboot the system.
+      >> Intel(R) Dual Band Wireless-AC 8265
+
+Manual Uninstall
+- Previous Proset 'Intel(R) Proset/Wireless WiFi Software' driver is installed.
+[Package]
+  1. Start Windows and logon with an administrator account.
+  2. Hold down the Windows key and press X to open a menu at the lower-left
+     area of the screen.
+  3. Select Programs and Features from the menu.
+  4. Select Intel PROSet/Wireless Software, and select Uninstall or Uninstall/
+     Change.
+  5. Follow the instructions on the screen to complete uninstallation and
+     restart the computer.
+
+[Proset]
+  1. Hold down the Windows logo key and press X to open a menu at the lower-left
+     area of the screen.
+  2. Select Device Manager from the menu.
+  3. Double-click the 'Software Components' category.
+  4. Right-click on 'Intel(R) PROSet/Wireless WiFi Software'
+     and click Uninstall device.
+  5. Check 'Delete the driver software for this device.' then click [Uninstall].
+  6. Reboot the system.
+
+[Driver]
+  1. Hold down the Windows logo key and press X to open a menu at the lower-left
+     area of the screen.
+  2. Select Device Manager from the menu.
+  3. Double-click the 'Network adapters' category.
+  4. Right-click on 'Intel(R) Dual Band Wireless-AC 8265'(depends on the WLAN card)
+     and click Uninstall device.
+  5. Check 'Delete the driver software for this device.' then click [Uninstall].
+  6. Reboot the system.
+
+Manual Uninstall
+- Previous Proset 'Intel(R) Proset/Wireless WiFi Software' driver is not installed.
+[Driver]
+  1. Hold down the Windows logo key and press X to open a menu at the lower-left
+     area of the screen.
+  2. Select Device Manager from the menu.
+  3. Double-click the 'Network adapters' category.
+  4. Right-click on 'Intel(R) Dual Band Wireless-AC 8265'(depends on the WLAN card)
+     and click Uninstall device.
+  5. Check 'Delete the driver software for this device.' then click [Uninstall].
+  6. Reboot the system.
+
+Manual Unattended Uninstall
+
+  This is for system administrators' use only.
+
+  1. Refer to the Manual Install section, and download and extract the file.
+  2. At the command line, execute dpinst.exe with the [/q /sa /se /sw] options.
+     Example:
+     [Path where the files were extracted]\dpinst.exe [/q /sa /se /sw]
+
+
+--------------------------------------------------------------------------------
+
+
+VERSION INFORMATION
+
+  The following versions have been released to date.
+
+  Package      Driver      Proset      Build ID    Rev.  Issue Date
+  -----------  ----------  ----------  --------    ----  ----------
+      ---      20.70.18.2     ---      NZ4W807W    02    2021/04/28
+      ---      20.70.18.2     ---      NZ4W807W    01    2020/08/26
+      ---      20.70.16.4     ---      NZ4W806W    01    2020/04/27
+  21.40.1.0u   20.70.12.5  21.40.1.0   NZ4W805W    01    2019/12/19
+  21.30.2.0u   20.70.11.3  21.30.2.0   NZ4W804W    01    2019/07/30
+  21.20.0.0u   20.70.10.2  21.20.0.0   NZ4W803W    Internal release
+  21.0.0.0u    20.70.7.1   21.0.0.0    NZ4W802W    02    2019/06/11
+  21.0.0.0u    20.70.7.1   21.0.0.0    NZ4W802W    01    2019/06/03
+  20.120.0.0u  20.70.6.1   20.120.0.0  NZ4W801W    02    2019/04/24
+  20.120.0.0u  20.70.6.1   20.120.0.0  NZ4W801W    01    2019/03/01
+
+  Note: Revision number (Rev.) is for administrative purpose of this README
+        document and is not related to software version. There is no need to
+        upgrade this software when the revision number changes.
+
+  To check the version of software, refer to the Determining which version is
+  installed section.
+
+  Summary of Changes
+
+  Where: <   >        Version number
+         [Important]  Important update
+         (New)        New function or enhancement
+         (Fix)        Correction to existing function
+
+<21.70.18.2>  (NZ4W807W)
+-[Important] Address security vulnerability issues CVE-2020-12313, CVE-2020 12314,
+       CVE-2020-12318, CVE-2020-12317, CVE-2020-12319, and CVE-2017-13080.
+
+<21.70.16.4>  (NZ4W806W)
+-[Important] Addressed issues CVE-2020-0557 and CVE-2020-0558.
+-[Important] Removed support for Proset "Intel(R) PROSet/Wireless WiFi Software"
+             driver.
+-(Fix) Added a tip for Proset device will not be removed in Device Manager after
+       WLAN driver uninstallation or after upgrade installation into the
+       LIMITATIONS section.
+-(Fix) Added a tip for Wi-Fi driver "Intel PROSet/Wireless Software" entry is
+       available in Programs and Features after upgrade installation from older
+       Wi-Fi Driver to a newer Wi-Fi Driver into the LIMITATIONS section.
+
+<21.40.1.0u>  (NZ4W805W)
+-(New) Improved driver performance.
+-(Fix) Fixed security issues (CVE-2019-11151, CVE-2019-11152, CVE-2019-11153,
+       CVE-2019-11154, CVE-2019-11155 and CVE-2019-11156).
+
+<21.30.2.0u>  (NZ4W804W)
+-(Fix) Fixed an issue where Wi-Fi might not have internet connection after
+       resume from sleep state.
+
+< 21.20.0.0u>  (NZ4W803W)
+-[Important] Disabled 5GHz channels (138, 142 and 144) for the South Korea
+             regulatory compliance.
+-(New) Improved driver performance to fix bluescreen issues.
+-(Fix) Fixed security vulnerabilities (CVE-2018-3701 and CVE-2019-0136).
+
+< 21.0.0.0u>  (NZ4W802W)
+-(New) Improved driver performance.
+
+< 20.120.0.0u>  (NZ4W801W)
+-(New) Initial release for the following systems:
+                ThinkPad P52s            (Machine types: 20LB, 20LC)
+                ThinkPad T480            (Machine types: 20L5, 20L6)
+                ThinkPad T480s           (Machine types: 20L7, 20L8)
+                ThinkPad T580            (Machine types: 20L9, 20LA)
+                ThinkPad X280            (Machine types: 20KE, 20KF)
+                ThinkPad X1 Carbon Gen 6 (Machine types: 20KH, 20KG)
+                ThinkPad X1 Tablet Gen 3 (Machine types: 20KJ, 20KK)
+                ThinkPad X1 Yoga Gen 3   (Machine types: 20LD, 20LE, 20LF, 20LG)
+
+
+--------------------------------------------------------------------------------
+TRADEMARKS
+
+* Lenovo and ThinkPad are registered trademarks of Lenovo.
+
+* The Bluetooth word mark and logos are owned by the Bluetooth SIG, Inc.
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* Wi-Fi and Wi-Fi Alliance are registered trademarks of the Wi-Fi Alliance.
+
+Other company, product, and service names may be registered trademarks,
+trademarks or service marks of others.

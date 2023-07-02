@@ -1,0 +1,61 @@
+.suite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+    
+}
+.h2{
+    text-align: center;
+    color: white;
+}
+label{
+    font-weight: bolder;
+}
+.needs-validation{
+    background: url('droite.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:  400px;
+    padding: 20px;
+    border-radius: 15px;
+}
+@media (max-width: 699px) {
+    .needs-validation{
+       max-width: 95%;
+       min-width: 90%;
+
+}
+
+}
+@media (min-width:700px), (max-width: 1200px){
+    .needs-validation{
+       max-width: 70%;
+       
+
+}
+
+body{
+    margin-top: 25vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+}
+
+@media (min-width: 1201px){
+    .needs-validation{
+       max-width: 50%;
+       
+
+}
+
+body{
+    margin-top: 25vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+}
+#suite{
+    display: none;
+}
